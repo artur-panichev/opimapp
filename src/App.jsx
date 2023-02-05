@@ -24,7 +24,7 @@ function App() {
         <Route path='/it1' element={<Suspense fallback={<Loader/>}><IT1 /></Suspense>} />
         <Route path='/it2' element={<Suspense fallback={<Loader/>}><IT2 /></Suspense>} />
         <Route path='/digioskused' element={<Suspense fallback={<Loader/>}><Digioskused /></Suspense>} />
-        <Route path='*' element={<Suspense fallback={<Loader/>}><Notfound /></Suspense>} />
+        <Route path='/*' element={<Suspense fallback={<Loader/>}><Notfound /></Suspense>} />
       </Routes>
 
     </div>
