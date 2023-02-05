@@ -10,7 +10,7 @@ function Home(){
                 Õpimapp | Artur Panitšev
             </h3>
 
-            <div className='box'>
+            <div className='box nowrap'>
                 <div>
                     <h1>Oleme tutvunud!</h1>
                     <p>Minu nimi on Artur.</p>

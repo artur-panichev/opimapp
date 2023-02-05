@@ -25,6 +25,9 @@
 .textCenter{
     text-align: center;
 }
+.nowrap{
+    flex-wrap: nowrap;
+}
 .box a{
     color: aqua;
 }
