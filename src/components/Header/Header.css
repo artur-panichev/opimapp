@@ -1,0 +1,87 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 35px;
+    background-color: #000;
+    border-bottom: 1px solid #000;
+    border-image: linear-gradient(90deg, lime, aqua) 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 0;
+    z-index: 10;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+header ul li{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+header ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 28px;
+    padding: 14px 18px;
+}
+header .logo{
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 14px;
+    color: transparent;
+    background: linear-gradient(90deg, lime, aqua);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+header ul li:nth-child(n+2) a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    width: 0%;
+    height: 2px;
+    border-radius: 7px;
+    background: linear-gradient(90deg, lime, aqua);
+    transition: 1s ease;
+}
+header ul li:nth-child(n+2) a:hover::after{
+    width: 100%;
+    transition: 0.33s ease;
+}
+.selected::after{
+    width: 100% !important;
+}
+#mobMenu{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 32px;
+    cursor: pointer;
+    display: none;
+    outline: none;
+}
+:root{
+    --displayMenu: none;
+}
+@media (max-width: 850px){
+    header ul{
+        flex-direction: column;
+    }
+    #mobMenu{
+        display: inline-block;
+    }
+    header ul li:nth-child(n+2){
+        display: var(--displayMenu);
+    }
+}

@@ -1,0 +1,36 @@
+#Notfound{
+    position: relative;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#Notfound h1{
+    margin: 0;
+    font-size: 128px;
+    font-weight: 900;
+}
+#Notfound p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 28px;
+}
+#Notfound p, #Notfound h1{
+    color: transparent;
+    background: linear-gradient(90deg, lime, aqua);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+#Notfound a{
+    color: transparent;
+    margin-top: 14px;
+    border: 2px solid #000;
+    border-image: linear-gradient(45deg, lime, aqua) 1;
+    padding: 7px;
+    background: linear-gradient(90deg, lime, aqua);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: 600;
+}

@@ -1,0 +1,36 @@
+.page{
+    text-align: center;
+}
+.page hr{
+    width: 25vw;
+}
+.box{
+    margin: 0;
+    padding: 100px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#080808, black);
+    text-align: right;
+    border-top: 2px solid #ffffff25;
+}
+.box div{
+    max-width: 500px;
+    margin: 25px;
+}
+.box img{
+    width: 400px;
+}
+.textCenter{
+    text-align: center;
+}
+@media (max-width: 850px){
+    .box{
+        flex-direction: column;
+        text-align: center;
+    }
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+}

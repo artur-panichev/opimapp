@@ -1,0 +1,22 @@
+footer{
+    box-shadow: 0 0px 10px #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px 0;
+    margin-top: 14px;
+    z-index: 2;
+}
+footer ul{
+    padding: 0;
+}
+footer li{
+    display: block;
+    margin: 20px;
+}
+@media (max-width: 560px){
+    footer{
+        flex-direction: column;
+    }
+}

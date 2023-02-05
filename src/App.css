@@ -1,0 +1,28 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+*::-webkit-scrollbar{
+    width: 4px;
+    height: 4px;
+    background-color: #000;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: #fff;
+}
+*::selection{
+    background-color: #fff;
+    color: #000;
+}
+body{
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+}
+#root{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
