@@ -23,6 +23,13 @@ function IT2(){
                     <iframe src="https://ivkhk-my.sharepoint.com/personal/artur_panitsev_ivkhk_ee/_layouts/15/Doc.aspx?sourcedoc={31107e50-41a3-4c10-a001-8715d571a608}&amp;action=embedview&amp;wdPrint=0" height="288px"></iframe>
                 </div>
             </div>
+
+            <div className="box">
+                <div className='textCenter'>
+                    <h1 className='textCenter'>Esitlus "Välisseadmed"</h1>
+                    <iframe src="https://ivkhk-my.sharepoint.com/personal/artur_panitsev_ivkhk_ee/_layouts/15/Doc.aspx?sourcedoc={ffa86bee-489a-4ba6-800c-23e1a730d3f2}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0"></iframe>
+                </div>
+            </div>
         </div>
     );
 }
