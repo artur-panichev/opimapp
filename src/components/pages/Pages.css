@@ -31,6 +31,9 @@
 .box a{
     color: aqua;
 }
+iframe{
+    background-color: #fff;
+}
 @media (max-width: 850px){
     .box{
         flex-direction: column;

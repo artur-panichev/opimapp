@@ -12,21 +12,21 @@ function Digioskused(){
             <div className="box">
                 <div>
                     <h1 className='textCenter'>Sõnastik</h1>
-                    <iframe src="https://ivkhk-my.sharepoint.com/personal/artur_panitsev_ivkhk_ee/_layouts/15/Doc.aspx?sourcedoc={a8ddbafe-0372-47b9-96b9-c589a9e868da}&amp;action=embedview&amp;wdPrint=0&amp;wdEmbedCode=0" width="476px" height="288px"></iframe>
+                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQxyaf5uVfjY7PZeFZ8-pSIItReiEjxwbLMhdUJdOurkN-uMvSnp9HHzre3PNwdLQ/pub?embedded=true" width="500px" height="300px"></iframe>
                 </div>
             </div>
 
             <div className="box">
                 <div>
                     <h1 className='textCenter'>Esitlus "Minu lemmik arvuti mäng"</h1>
-                    <iframe src="https://ivkhk-my.sharepoint.com/personal/artur_panitsev_ivkhk_ee/_layouts/15/Doc.aspx?sourcedoc={842b4fa1-b1bc-42a6-955a-71b932bda823}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="476px" height="288px"></iframe>
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQwzPuUL_0lmcrrOe6Ct01bTWLuCVu1-yNSVuFY2K12OPqETDVhLoVOodl95pTIIA/embed?start=false&loop=false&delayms=3000" frameborder="0" width="500" height="300" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                 </div>
             </div>
 
             <div className="box">
                 <div>
                     <h1 className='textCenter'>Referaat "Tervislik eluviis"</h1>
-                    <iframe src="https://ivkhk-my.sharepoint.com/personal/artur_panitsev_ivkhk_ee/_layouts/15/Doc.aspx?sourcedoc={ebad36d9-e85b-435a-9776-d5af869081b1}&amp;action=embedview&amp;wdPrint=0" width="476px" height="288px"></iframe>
+                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vSZthyu7Dbi5cjg5QyXIeN84EgehETG0CkkqJHsOl-p2msH2qI9xhGT7Hwnku-8_w/pub?embedded=true" width="500px" height="300px"></iframe>
                 </div>
             </div>
             <div className="box">
