@@ -17,7 +17,7 @@ function Home(){
                     <p>Minu hobid on programmerimine, arvutimänge mängimine, anime vaatamine, mänguserveri arendamine.</p>
                     <p>Õpin Ida-Virumaa Kutsehariduskeskuses tarkvaraarendaja erialal.</p>
                 </div>
-                <img src={ivkhk} />
+                <img className='i1' src={ivkhk} />
             </div>
 
         </div>
