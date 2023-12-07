@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+
 import { useEffect } from 'react';
 
 import { Link } from 'react-router-dom';
@@ -40,26 +43,32 @@ function Header(){
         <header>
             <ul>
                 <li>
-                    <Link to="/" className="logo">Artur Panitšev</Link>
+                    <Link to="/" className="logo">Tarkvaraarendaja õpimapp</Link>
                     <button id='mobMenu'>
                         <i className="fa-solid fa-bars"></i>
                     </button>
                 </li>
                 <li>
-                    <Link to="/">Koduleht</Link>
+                    <Link to="/">Avaleht</Link>
                 </li>
                 <li>
-                    <Link to="/progalused">Programmeerimise alused</Link>
+                    <Link to="/pohiopingud">Põhiõpingud <FontAwesomeIcon className='ico' icon={faChevronDown}/></Link>
+                    <ul>
+                        <li><Link to="/progalused">Progremmeerimise alused</Link></li>
+                        <li><Link to="/it1">IT valdkonna alusteadmised 1</Link></li>
+                        <li><Link to="/it2">IT valdkonna alusteadmised 2</Link></li>
+                        <li><Link to="/digioskused">Digioskuste kujundamine</Link></li>
+                    </ul>
                 </li>
                 <li>
-                    <Link to="it1">IT valdkonna alusteadmised 1</Link>
+                    <Link to="valikopingud">Valikõpingud</Link>
                 </li>
                 <li>
-                    <Link to="it2">IT valdkonna alusteadmised 2</Link>
+                    <Link to="ettevõtepraktika">Ettevõtepraktika</Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="digioskused">Digioskuste kujundamine</Link>
-                </li>
+                </li> */}
             </ul>
         </header>
     );

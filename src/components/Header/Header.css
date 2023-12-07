@@ -26,6 +26,7 @@ header ul li{
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    overflow: hidden;
 }
 header ul li a{
     display: flex;
@@ -33,6 +34,9 @@ header ul li a{
     align-items: center;
     min-height: 28px;
     padding: 14px 18px;
+}
+header ul li a .ico{
+    margin: 0 8px;
 }
 header .logo{
     font-size: 24px;
@@ -47,7 +51,7 @@ header ul li:nth-child(n+2) a::after{
     content: '';
     position: absolute;
     left: 0;
-    bottom: -7px;
+    bottom: 0px;
     width: 0%;
     height: 2px;
     border-radius: 7px;
@@ -75,6 +79,24 @@ header ul li:nth-child(n+2) a:hover::after{
 :root{
     --displayMenu: none;
 }
+header li:hover{
+    overflow: visible;
+}
+header ul>li>ul{
+    text-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #000;
+    z-index: -1;
+    padding: 7px;
+}
 @media (max-width: 850px){
     header ul{
         flex-direction: column;
@@ -84,5 +106,11 @@ header ul li:nth-child(n+2) a:hover::after{
     }
     header ul li:nth-child(n+2){
         display: var(--displayMenu);
+    }
+    header li:hover{
+        overflow: hidden;
+    }
+    .ico{
+        display: none;
     }
 }
