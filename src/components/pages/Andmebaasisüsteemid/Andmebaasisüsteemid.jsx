@@ -21,14 +21,20 @@ function Andmebaasisüsteemid(){
 
             <div className="box">
                 <div className="textCenter">
-                    <h2>Esitlus "Microsoft Access"</h2>
+                    <h2>Esitlus "Microsoft Access" (HÜ 1.2)</h2>
                     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQu0sojBq2y3xQH9Aw2p6r5zXabSqjIAaEJPrDVrJMji4XvFbYruM4phyWAy4CJBw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="500" height="300" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                 </div>
             </div>
             <div className="box">
                 <div className="textCenter">
-                    <h2>Esitlus "Firebase"</h2>
+                    <h2>Esitlus "Firebase" (HÜ 1.3)</h2>
                     <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSRhxlv7EdcI6WZsTNv0hy0ImBfzV1CWU6UqrOUPoP4sjW6HaWJh27XhHPoTkamDA/embed?start=false&loop=false&delayms=3000" frameborder="0" width="500" height="300" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                </div>
+            </div>
+            <div className="box">
+                <div className="textCenter">
+                    <h2>Andmebaasi päringud (HÜ 2.5)</h2>
+                    <iframe src="https://docs.google.com/document/d/e/2PACX-1vQhrQ9p1ekvU039InNskJTwXQnDwpsH0ynBSeoiqdjlwh8hBzHjAIA5MnK01yGgcg/pub?embedded=true" width="500px" height="300px"></iframe>
                 </div>
             </div>
 

@@ -6,9 +6,9 @@ function Home(){
         <div className='page'>
             <h1>Koduleht</h1>
             <hr />
-            <h3>
-                Õpimapp | Artur Panitšev
-            </h3>
+            <div className='textCenter'>
+                <strong>Õpimapp | Artur Panitšev</strong>
+            </div>
 
             <div className='box nowrap'>
                 <div>

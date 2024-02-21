@@ -1,0 +1,14 @@
+.pohiopingud a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 60px;
+    margin: 0;
+    background-color: #222;
+    color: #fff;
+    margin:  0 auto;
+}
+.pohiopingud a:hover{
+    background-color: #333;
+}

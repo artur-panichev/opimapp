@@ -31,11 +31,13 @@
 }
 .textCenter{
     text-align: center;
+    padding: 20px;
 }
 .textBox{
     text-align: left;
     max-width: 740px;
     margin: 25px auto;
+    padding: 20px;
 }
 .nowrap{
     flex-wrap: nowrap;

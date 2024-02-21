@@ -4,10 +4,6 @@ function Digioskused(){
     return(
         <div className="page">
             <h1>Digioskuste kujundamine</h1>
-            <hr />
-            <h3>
-                Õpimapp | Artur Panitšev
-            </h3>
 
             <div className="box">
                 <div>
