@@ -1,5 +1,5 @@
 import '../Pages.css'
-import ivkhk from './img/ivkhk.jpg'
+import ivkhk from '/img/ivkhk-logo.png'
 
 function Home(){
     return(

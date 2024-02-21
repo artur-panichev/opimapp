@@ -58,6 +58,7 @@ function Header(){
                         <li><Link to="/it1">IT valdkonna alusteadmised 1</Link></li>
                         <li><Link to="/it2">IT valdkonna alusteadmised 2</Link></li>
                         <li><Link to="/digioskused">Digioskuste kujundamine</Link></li>
+                        <li><Link to="/andmebaasid">Andmebaasisüsteemid - ALUSED</Link></li>
                     </ul>
                 </li>
                 <li>
