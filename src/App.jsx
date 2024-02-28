@@ -15,6 +15,7 @@ const Pohiopingud = lazy(() => import('./components/pages/Pohiopingud/Pohiopingu
 const Valikopingud = lazy(() => import('./components/pages/Valikopingud/Valikopingud'));
 const Ettevõtepraktika = lazy(() => import('./components/pages/Ettevõtepraktika/Ettevõtepraktika'));
 const Andmebaasid = lazy(() => import('./components/pages/Andmebaasisüsteemid/Andmebaasisüsteemid'));
+const Prog2 = lazy(() => import('./components/pages/Prog2/Prog2'));
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <Route path='/it2' element={<Suspense fallback={<Loader/>}><IT2 /></Suspense>} />
         <Route path='/digioskused' element={<Suspense fallback={<Loader/>}><Digioskused /></Suspense>} />
         <Route path='/andmebaasid' element={<Suspense fallback={<Loader/>}><Andmebaasid /></Suspense>} />
+        <Route path='/prog2' element={<Suspense fallback={<Loader/>}><Prog2 /></Suspense>} />
         <Route path='/*' element={<Suspense fallback={<Loader/>}><Notfound /></Suspense>} />
       </Routes>
 
