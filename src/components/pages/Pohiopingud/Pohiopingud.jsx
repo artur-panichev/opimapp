@@ -10,8 +10,9 @@ export default function Pohiopingud() {
 			<Link to="/progalused">Progremmeerimise alused</Link>
 			<Link to="/it1">IT valdkonna alusteadmised 1</Link>
 			<Link to="/it2">IT valdkonna alusteadmised 2</Link>
-			<Link to="/digioskused">Digioskuste kujundamine</Link>
+			{/* <Link to="/digioskused">Digioskuste kujundamine</Link> */}
 			<Link to="/andmebaasid">Andmebaasisüsteemid</Link>
+			<Link to="/prog2">Programmeerimine II</Link>
 		</div>
 	</div>
   )

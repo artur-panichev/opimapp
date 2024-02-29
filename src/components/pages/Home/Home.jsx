@@ -12,10 +12,9 @@ function Home(){
 
             <div className='box nowrap'>
                 <div>
-                    <h1>Oleme tutvunud!</h1>
-                    <p>Minu nimi on Artur.</p>
-                    <p>Minu hobid on programmerimine, arvutimänge mängimine, anime vaatamine, mänguserveri arendamine.</p>
-                    <p>Õpin Ida-Virumaa Kutsehariduskeskuses tarkvaraarendaja erialal.</p>
+                    <p>Mina olen Artur Panitšev. Ma õpin Ida-Virumaa Kutsehariduskeskuses Tarkvaraarendaja erialal.</p>
+                    <h1>Õpimapp</h1>
+                    <p>Õpimapp on õpilase iseseisev töö, mis täieneb pidevalt õpingute käigus. Õpimapi vorm võib olla erinev. E-õpimapp on õppimise ük hindamise meetoditest. Õpimapi kasutamise eesmärk on toetada õppija õpi- ja töökogemuste ja –tulemuste reflektsiooni ja seeläbi tuua välja tema tugevad küljed, unikaalsus, õpingute jooksul omandatud teadmised ja oskused.</p>
                 </div>
                 <img className='i1' src={ivkhk} />
             </div>
